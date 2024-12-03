@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# **Next.js Todo Application**
 
-## Getting Started
+A simple and efficient Todo application built with Next.js. This project demonstrates the use of React Context API for state management and a clean, scalable project structure.
 
-First, run the development server:
+## **Features**
+- Add and manage todos.
+- Mark todos as completed (future enhancement).
+- Responsive and lightweight design.
+- Scalable architecture using Context API.
 
+---
+
+## **Technologies Used**
+- **Frontend:** Next.js, React
+- **State Management:** React Context API
+- **Styling:** CSS (or mention any styling library you use)
+- **TypeScript:** Ensures type safety across components.
+
+---
+
+## **Getting Started**
+
+### **Prerequisites**
+- Node.js (v16 or higher)
+- npm or yarn
+
+### **Installation**
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd nextjs-app
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+### **Development Server**
+Start the development server:
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+Visit [http://localhost:3000](http://localhost:3000) to view the application.
+
+---
+
+## **Building for Production**
+1. Create a production build:
+   ```bash
+   npm run build
+   ```
+2. Start the production server:
+   ```bash
+   npm run start
+   ```
+
+---
+
+## **Project Structure**
+```
+nextjs-app/
+├── public/          # Static assets
+├── src/
+│   ├── components/  # React components
+│   ├── Store/       # Context API store
+│   ├── pages/       # Next.js pages
+│   └── styles/      # CSS or styling files
+├── .next/           # Production build (auto-generated)
+├── package.json     # Project metadata and scripts
+└── README.md        # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## **Available Scripts**
+- `npm run dev` - Start the development server.
+- `npm run build` - Create a production build.
+- `npm run start` - Start the production server.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## **Context API Implementation**
 
-To learn more about Next.js, take a look at the following resources:
+### **AddTodo Component**
+Allows users to add new tasks.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### **TodosProvider Component**
+Manages the application's state using Context API, including:
+- `todos`: The list of tasks.
+- `handleAddTodo`: A function to add tasks to the list.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## **Future Enhancements**
+- Add the ability to delete and edit todos.
+- Enable marking tasks as completed.
+- Improve UI/UX with animations and styling.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## **Contributing**
+Contributions are welcome! Feel free to submit a pull request or open an issue for suggestions.
+
+---
+
+## **License**
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+
+Let me know if you need further customization! 🚀
