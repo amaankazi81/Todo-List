@@ -4,16 +4,23 @@ A simple and efficient Todo application built with Next.js. This project demonst
 
 ## **Features**
 - Add and manage todos.
-- Mark todos as completed (future enhancement).
-- Responsive and lightweight design.
-- Scalable architecture using Context API.
+  ![t1](https://github.com/user-attachments/assets/29a5ad4b-76d2-4c9b-a7c5-925ffc2362e8)
+
+- Mark todos as completed.
+  ![t2](https://github.com/user-attachments/assets/ead5b1ad-b927-4a60-8cb3-b89cdcd403c2)
+
+- Displays All, Active and Completed Todos.
+  ![t3](https://github.com/user-attachments/assets/855ea703-924a-4773-9efe-d0bae4a20685)
+  ![t4](https://github.com/user-attachments/assets/8b84f789-9c62-4716-9360-933e2a3224ff)
+
+- Deletes Todos.
+  ![t5](https://github.com/user-attachments/assets/c7e8b766-62bf-426a-8e88-7ef852396700)
 
 ---
 
 ## **Technologies Used**
-- **Frontend:** Next.js, React
+- **Frontend:** Next.js, React, HTML, CSS
 - **State Management:** React Context API
-- **Styling:** CSS (or mention any styling library you use)
 - **TypeScript:** Ensures type safety across components.
 
 ---
@@ -27,7 +34,7 @@ A simple and efficient Todo application built with Next.js. This project demonst
 ### **Installation**
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone (https://github.com/amaankazi81/Todo-List.git)
    cd nextjs-app
    ```
 2. Install dependencies:
@@ -53,23 +60,6 @@ Visit [http://localhost:3000](http://localhost:3000) to view the application.
    ```bash
    npm run start
    ```
-
----
-
-## **Project Structure**
-```
-nextjs-app/
-├── public/          # Static assets
-├── src/
-│   ├── components/  # React components
-│   ├── Store/       # Context API store
-│   ├── pages/       # Next.js pages
-│   └── styles/      # CSS or styling files
-├── .next/           # Production build (auto-generated)
-├── package.json     # Project metadata and scripts
-└── README.md        # Project documentation
-```
-
 ---
 
 ## **Available Scripts**
@@ -89,12 +79,6 @@ Manages the application's state using Context API, including:
 - `todos`: The list of tasks.
 - `handleAddTodo`: A function to add tasks to the list.
 
----
-
-## **Future Enhancements**
-- Add the ability to delete and edit todos.
-- Enable marking tasks as completed.
-- Improve UI/UX with animations and styling.
 
 ---
 
