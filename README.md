@@ -1,6 +1,6 @@
 # **Next.js Todo Application**
 
-A simple and efficient Todo application built with Next.js. This project demonstrates the use of React Context API for state management and a clean, scalable project structure.
+A simple and efficient Todo application built with Next.js. This project demonstrates the use of React Context API for state management and a clean, scalable project structure. It Add, Manage and Delete Todos.
 
 ## **Features**
 - Add and manage todos.
