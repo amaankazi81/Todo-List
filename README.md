@@ -34,7 +34,7 @@ A simple and efficient Todo application built with Next.js. This project demonst
 ### **Installation**
 1. Clone the repository:
    ```bash
-   git clone (https://github.com/amaankazi81/Todo-List.git)
+   git clone https://github.com/amaankazi81/Todo-List.git
    cd nextjs-app
    ```
 2. Install dependencies:
